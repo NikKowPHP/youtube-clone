@@ -1,39 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube.com Clone</title>
     <style>
-        .thumbnail {
-            width:300px;
-            display: block;
-        }
-        .search-bar {
-            font-size: 20px;
-            margin-left: 12px;
-        }
-        .video-title {
-            width: 300px;
-        }
-
-
+      .thumbnail {
+        width: 300px;
+        display: block;
+      }
+      .search-bar {
+        font-size: 20px;
+        margin-left: 12px;
+        display: block;
+      }
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: top;
+      }
     </style>
-</head>
-<body>
-    <input type="text" class="search-bar" placeholder="Search">
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
-    <p class="video-title">
+  </head>
+  <body>
+    <input type="text" class="search-bar" placeholder="Search" />
+
+    <div class="video-preview">
+      <div>
+      <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="" />
+      </div>
+      <div>
+        <img src="channel-pictures/channel-1.jpeg" alt="">
+      <p class="video-title">
         Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p class="video-author">
-        Marques Brownlee
-    </p>
-    <p class="video-stats">
-        3.4M views &#183; 6 month ago
-    </p>
-</body>
+      </p>
+      <p class="video-author">Marques Brownlee</p>
+      <p class="video-stats">3.4M views &#183; 6 month ago</p>
+
+      </div>
+    </div>
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="" />
+      <p class="video-title">
+        Try not to laugh Challenge #9
+      </p>
+      <p class="video-author">Markpiller</p>
+      <p class="video-stats">19M views &#183; 4 years ago</p>
+    </div>
+  </body>
 </html>
-
-
