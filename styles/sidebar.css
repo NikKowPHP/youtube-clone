@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .sidebar-link div {
     font-family: Roboto,Arial;
