@@ -6,4 +6,25 @@
     background-color: white;
     width: 70px;
     border-right: 1px solid rgb(228,228,228);
+    z-index: 101;
+}
+.sidebar-link {
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-link div {
+    font-family: Roboto,Arial;
+    font-size: 9px;
+
+}
+.sidebar-link:hover {
+    background-color: rgb(226, 226, 226);
+
+}
+.sidebar-link img {
+    width: 24px;
+    margin-bottom: 4px;
 }
